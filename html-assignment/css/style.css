@@ -1,0 +1,37 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+header, footer{
+    background-color: aquamarine;
+}
+.site-title {
+color: rgb(129, 45, 208);
+}
+nav ul {
+    list-style-type: none;
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+.hobbies ul {
+    list-style-type: square;
+}
+.hobbies ul li:nth-child(odd){
+background-color: blue;
+}
+
+/* styling navuigarion */
+
+
+a {
+    text-decoration: none;
+    background-color: rgb(197, 54, 54);
+    border: 1px solid rgb(194, 115, 115);
+    color: rgb(226, 221, 200);
+}
+
+a:hover, a:focus
+{background-color: rgb(90, 136, 220); 
+     color: hotpink;
+}
